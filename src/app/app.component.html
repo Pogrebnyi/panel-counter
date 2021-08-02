@@ -1,0 +1,14 @@
+<body style="height: max-content;">
+  <div  class="container">
+    <tr
+      *ngFor="let digit of digits">
+      <td id="text">{{ digit }}</td>
+    </tr>
+
+    <button
+      (click)="resetCounter()"
+    >
+      RESET
+    </button>
+  </div>
+</body>

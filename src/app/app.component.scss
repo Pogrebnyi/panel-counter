@@ -1,0 +1,38 @@
+.container {
+  color: #333333;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.horizontal-align {
+  align-items: center;
+}
+
+button {
+  position: absolute;
+  font-size: 8px;
+  padding: 4px 8px 4px 8px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+tr {
+  height: 200px;
+  margin: 8px;
+  color: #333333;
+
+  td {
+    margin-left: 20;
+    padding: 32px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-style: solid;
+    border-radius: 2px;
+    font-size: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+}
